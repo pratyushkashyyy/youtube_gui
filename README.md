@@ -7,6 +7,10 @@ Youtube Videos Downloader with GUI
 - Downloads the video file in the selected quality option.
 - Supports downloading videos in the MP4 format.
 
+# Required Modules Installation
+## Download the 'requirements.txt' and rin this command in terminal
+- pip install -r requirements.txt
+
 # Installation for Linux
 ## Directly Run the Source code 
 - Download 'main.py' file and run it with python 
