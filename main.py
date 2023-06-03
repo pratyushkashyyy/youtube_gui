@@ -40,7 +40,7 @@ class Downloader:
     def on_select(self, event):
         selection = self.quality_listbox.get(self.quality_listbox.curselection())
         numbers = ''.join(filter(str.isdigit, selection))
-        self.selected_choice = int(numbers[0])
+        self.selected_choice = int(numbers[0])-1
 
     def download_video(self):
         if self.selected_choice is not None:
